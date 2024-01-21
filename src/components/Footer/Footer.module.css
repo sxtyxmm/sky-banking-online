@@ -1,0 +1,209 @@
+.sectionOne {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8.5rem;
+}
+
+.getSky {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffe9dd;
+}
+
+.getSkyLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 2;
+}
+
+.getSkyLeft h1 {
+  color: var(--orange-default);
+  font-size: 37px;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+.getSkyLeft p {
+  color: #4b413d;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.getSkyLeft small {
+  color: var(--orange-very-light);
+  margin-bottom: 1.5rem;
+}
+
+.getSkyRight {
+  width: 50%;
+}
+
+.getSkyRight img {
+  width: 100%;
+  height: auto;
+  transform: translateY(0.4rem);
+}
+
+@media screen and (max-width: 990px) {
+  .getSky {
+    width: 85%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .getSkyRight {
+    display: none !important;
+  }
+
+  .getSkyLeft {
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 765px) {
+  .getSky {
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 85%;
+  }
+  .getSkyLeft h1 {
+    font-size: 30px;
+  }
+  .getSkyLeft p {
+    font-size: 15px !important;
+  }
+}
+/* Section TWO////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.sectionTwo {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  border-top: 1px solid rgb(228, 228, 228);
+  padding-top: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.sectionTwoLink {
+  display: flex;
+  line-height: 2;
+
+  justify-content: space-around;
+  width: 60%;
+  gap: 3rem;
+  white-space: nowrap;
+}
+
+.sectionTwoLink1 {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.sectionTwoLink2 {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+.sectionTwoLink p {
+  font-weight: 400;
+  color: #36302d;
+  cursor: pointer;
+}
+
+.linkHead {
+  color: var(--orange-light);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 765px) {
+  .sectionTwoLink {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sectionTwoLink1 {
+    gap: 100%;
+  }
+
+  .sectionTwo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Section Three////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.sectionThree {
+  padding-bottom: 5rem;
+}
+.downloadBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.downloadBtn img {
+  width: 200px;
+  height: 40px;
+}
+
+.productsVary {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #7a7876;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.location {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.contact h4 {
+  color: var(--orange-default);
+}
+
+.contact p {
+  font-weight: 400;
+  color: #36302d;
+}
+
+.finalPara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finalPara div {
+  display: flex;
+  width: 65%;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.finalPara small {
+  font-weight: 400;
+  color: #918f8d;
+}

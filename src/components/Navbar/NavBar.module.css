@@ -1,0 +1,123 @@
+.nav {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: fit-content;
+  gap: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.5s;
+}
+
+.span {
+  margin-right: 10px;
+}
+
+.singleLink {
+  margin-bottom: 0.5rem;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  color: var(--orange-default);
+  width: 11px;
+  height: 8px;
+}
+
+.popupContainer {
+  position: relative;
+}
+
+.popupContainer div {
+  position: absolute;
+  text-align: start;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+  background-color: white;
+  /* transform: translateY(1rem); */
+  border-radius: 8px;
+}
+
+.popupContainer div p {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  white-space: nowrap;
+  color: rgb(88, 88, 88);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.links {
+  display: flex;
+  gap: 5rem;
+}
+
+.hambuger {
+  display: none;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1045px) {
+  .links {
+    display: none;
+  }
+
+  .right p,
+  .right button {
+    display: none;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hambuger {
+    display: block;
+  }
+
+  .nav {
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.nav h1 {
+  color: var(--orange-default);
+  cursor: pointer;
+}
+
+.nav p {
+  color: var(--orange-light);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.countryIcon {
+  cursor: pointer;
+}

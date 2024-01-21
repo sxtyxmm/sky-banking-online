@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled files
+dist/
+build/
+
+# Log files
+*.log
+
+# CSS files
+*.css
+
+# HTML files
+*.html
+
+# Environment-specific files
+.env
+
+# Ignore any local configuration files
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
