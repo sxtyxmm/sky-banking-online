@@ -1,0 +1,37 @@
+@import "animate.css";
+
+:root {
+  --orange-default: #424a52;
+  --orange-light: #e06a2a;
+  --orange-very-light: #e78651;
+  --orange-bg-svg: #e4a07b9a;
+}
+
+.App {
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+small,
+img,
+button {
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+h1 {
+  animation: fadeInUp;
+  animation-duration: 1s;
+  color: var(--orange-default);
+}
+
+button {
+  cursor: pointer;
+  background-color: #dd4f05 !important;
+}
